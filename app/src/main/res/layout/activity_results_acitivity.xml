@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgroundimage"
     android:gravity="center">
 
     <TextView
@@ -11,6 +12,8 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:text="Your Score: 0/0"
+        android:fontFamily="@font/finger_paint"
+        android:textColor="@color/cardview_dark_background"
         android:layout_marginBottom="24dp"/>
 
     <Button
@@ -18,5 +21,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Play Again"
+        android:fontFamily="@font/finger_paint"
+        android:textColor="@color/cardview_dark_background"
         android:onClick="playAgain"/>
+
 </LinearLayout>
